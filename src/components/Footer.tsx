@@ -23,14 +23,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 lg:gap-20 mb-20">
           
           <div className="md:col-span-2">
-            <div className="flex items-center gap-4 mb-8">
+            <a href="/" className="flex items-center gap-4 mb-8 cursor-pointer inline-flex">
               <div className="w-12 h-12 border border-[#84A59D] rounded-full flex items-center justify-center">
                  <Droplets className="w-6 h-6 text-[#84A59D]" strokeWidth={1.5} />
               </div>
               <span className="text-3xl font-serif font-bold tracking-tight text-[#F9F7F2]">
                 RIVER<span className="font-sans font-light text-2xl mx-2 text-[#84A59D]">&amp;</span>STONE
               </span>
-            </div>
+            </a>
             <p className="text-sm leading-relaxed font-light opacity-70 max-w-sm">
               Artisanal care for modern plumbing. We provide sustainable, and swift services for distinct residential and commercial properties globally.
             </p>

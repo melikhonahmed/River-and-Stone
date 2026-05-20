@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           
           {/* Premium Logo */}
-          <div className="flex items-center gap-4">
+          <a href="/" className="flex items-center gap-4 cursor-pointer">
             <div className="w-10 h-10 border border-[#84A59D] rounded-full flex items-center justify-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-[#84A59D]/10"></div>
                 <Droplets className="w-5 h-5 text-[#354F52]" strokeWidth={1.5} />
@@ -31,7 +31,7 @@ export default function Navbar() {
             <span className="text-2xl font-serif font-bold tracking-tight text-[#354F52]">
               RIVER<span className="font-sans font-light text-xl mx-2 text-[#84A59D]">&amp;</span>STONE
             </span>
-          </div>
+          </a>
           
           <div className="hidden md:flex space-x-12 items-center">
             <a href="#services" className="text-xs uppercase tracking-widest font-semibold text-[#354F52] hover:text-[#84A59D] transition-colors">Services</a>
