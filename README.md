@@ -1,20 +1,58 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# River & Stone Plumbing
 
-# Run and deploy your AI Studio app
+A premium, artisanal landing page template designed for high-end plumbing, home services, and luxury residential contractors.
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/f1eac0c5-3ffd-433c-9022-398e4b26997f
+River & Stone Plumbing is a meticulously crafted single-page application (SPA) focused on elegant typography, deliberate negative space, and smooth, purposeful animations. It communicates trust, reliability, and premium craftsmanship for high-end consumers.
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+* **Premium Visual Identity:** Cosmic slate dark theme paired with sophisticated off-whites and sage accents.
+* **Responsive Layout:** Flawlessly adapts across mobile, tablet, and desktop viewports, preserving structural integrity.
+* **Refined Animations:** Purposeful micro-interactions, fade-ins, and scroll animations driven by Framer Motion.
+* **Modern Typography:** Clean serifs and sans-serifs strategically paired for a professional, editorial feel.
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* **Framework:** React 18
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
+* **Animations:** Framer Motion
+
+## Getting Started
+
+To run this project locally, execute the following commands:
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Install the core dependencies:
+
+```bash
+npm install
+```
+
+### Development Server
+
+Start the local development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:3000`.
+
+### Build for Production
+
+To build the application for deployment:
+
+```bash
+npm run build
+```
+
+This will compile and bundle the project, generating a `dist` directory that contains your optimized static assets ready for hosting.
